@@ -6,7 +6,7 @@ import { Image, ImageBackground, Text, View } from "react-native";
 
 const TabsIcon = ({ focused, icon, title }: any) => {
   return focused ? (
-    <ImageBackground source={images.highlight} className="flex flex-row flex-1 w-full min-w-32 min-h-14 mt-4 justify-center items-center rounded-full overflow-hidden gap-2">
+    <ImageBackground source={images.highlight} className="flex flex-row flex-1 w-full min-w-32 min-h-16 mt-4 justify-center items-center rounded-full overflow-hidden gap-2">
       <Image source={icon} tintColor="#151312" className="size-5" />
       <Text className="text-secondary text-base font-semibold">{title}</Text>
     </ImageBackground>
